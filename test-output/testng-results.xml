@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28748" started-at="2020-12-27T08:10:37Z" finished-at="2020-12-27T08:11:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28748" started-at="2020-12-27T08:10:37Z" finished-at="2020-12-27T08:11:05Z">
+      <class name="com.testautomation.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@7fad8c79]" name="setUpClass" is-config="true" duration-ms="227" started-at="2020-12-27T08:10:37Z" finished-at="2020-12-27T08:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunner.TestRunner@7fad8c79]" name="feature" duration-ms="14415" started-at="2020-12-27T08:10:37Z" data-provider="features" finished-at="2020-12-27T08:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting the registration page details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature to Angular Practice Page Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunner.TestRunner@7fad8c79]" name="feature" duration-ms="13942" started-at="2020-12-27T08:10:51Z" data-provider="features" finished-at="2020-12-27T08:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the alertbox in practice page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature to Angular Practice Page Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@7fad8c79]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2020-12-27T08:11:05Z" finished-at="2020-12-27T08:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testautomation.TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
